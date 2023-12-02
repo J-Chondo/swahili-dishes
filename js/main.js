@@ -52,6 +52,8 @@ function closeSubmenu(e) {
   /* Event listener */
   document.addEventListener("click", closeSubmenu, false);
 
+  // swiper home and gallary
+
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -65,6 +67,8 @@ var swiper = new Swiper(".mySwiper", {
   },
   loop: true,
 });
+
+// swiper for review
 
 var swiper = new Swiper(".review-slider", {
   spaceBetween: 20,
